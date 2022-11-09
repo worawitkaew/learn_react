@@ -12,4 +12,4 @@ services:
        - ./my-app:/usr/src/app/my-app
        - /usr/src/app/my-app/node_modules
 
-    command: npm start
+    # command: npm start
