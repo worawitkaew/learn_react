@@ -7,5 +7,8 @@ COPY package*.json ./
 # COPY . ./
 
 RUN npm install
+RUN npm install -g npm@8.19.3
 
-# CMD ["npm", "start"]
+#RUN chmod a+rwx /usr/src/app/my-app/node_modules/
+
+CMD ["npm", "start"]
